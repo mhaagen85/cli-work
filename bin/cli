@@ -3,10 +3,11 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
+use Mhaagen\CliWork\Commands\Work;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
 
-// ... register commands
+$application->add(new Work());
 
 $application->run();

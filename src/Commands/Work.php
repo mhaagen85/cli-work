@@ -1,6 +1,6 @@
 <?php
 
-namespace Osteel\PhpCliDemo\Commands;
+namespace Mhaagen\CliWork\Commands;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -14,14 +14,14 @@ class Work extends Command
      *
      * @var string
      */
-    protected static $defaultName = 'play';
+    protected static $defaultName = 'work';
 
     /**
      * The command description shown when running "php bin/demo list".
      *
      * @var string
      */
-    protected static $defaultDescription = 'Play the game!';
+    protected static $defaultDescription = 'Get your Working hours!';
 
     /**
      * Execute the command

@@ -1,0 +1,18 @@
+{
+    "name": "mhaagen/cli-work",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mhaagen\\CliWork\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "martijn",
+            "email": "martijn.vanhaagen@experius.nl"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.3"
+    }
+}
